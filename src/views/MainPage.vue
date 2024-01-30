@@ -26,19 +26,7 @@ export default {
         title: "Первая",
         label: ["Задача 1", "Задача 2", "Задача 3"],
         completed: false
-      },
-      {
-        id: 2,
-        title: "Вторая",
-        label: ["Задача 1", "Задача 2", "Задача 3"],
-        completed: false
-      },
-      {
-        id: 3,
-        title: "Третья",
-        label: ["Задача 1", "Задача 2", "Задача 3"],
-        completed: false
-      },
+      }
     ].concat(JSON.parse(localStorage.todos || "[]")),
   }),
   methods: {
